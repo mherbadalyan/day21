@@ -19,18 +19,18 @@ public class Square implements Shape{
     }
 
     @Override
-    public double Area() {
+    public double area() {
         return 4 * side;
     }
 
     @Override
-    public double Perimeter() {
+    public double perimeter() {
         return Math.pow(side,2);
     }
 
     @Override
     public String toString() {
-        return "Area of square = " + Area()
-                + ". Perimeter of square = " + Perimeter();
+        return "Area of square = " + area()
+                + ". Perimeter of square = " + perimeter();
     }
 }

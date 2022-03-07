@@ -29,18 +29,18 @@ public class Rectangle implements Shape{
     }
 
     @Override
-    public double Area() {
+    public double area() {
         return 2 * (side1 + side2);
     }
 
     @Override
-    public double Perimeter() {
+    public double perimeter() {
         return side1 * side2;
     }
 
     @Override
     public String toString() {
-        return "Area of rectangle = " + Area()
-                + ". Perimeter of rectangle = " + Perimeter();
+        return "Area of rectangle = " + area()
+                + ". Perimeter of rectangle = " + perimeter();
     }
 }

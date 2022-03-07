@@ -19,18 +19,18 @@ public class Circle implements Shape{
     }
 
     @Override
-    public double Area() {
+    public double area() {
         return Math.PI * Math.pow(radius , 2);
     }
 
     @Override
-    public double Perimeter() {
+    public double perimeter() {
         return 4 * Math.PI * radius;
     }
 
     @Override
     public String toString() {
-        return "Area of circle = " + Area()
-                + ". Perimeter of circle = " + Perimeter();
+        return "Area of circle = " + area()
+                + ". Perimeter of circle = " + perimeter();
     }
 }
